@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <PackageId>kv.net</PackageId>
+    <Title>A key-value pair storage console app</Title>
+    <Authors>Greg Lusk</Authors>
+    <Company />
+    <Product>kv.net</Product>
+    <Description>kv.net is a .NET Standard console application that is delivered as a class library and runs as a Docker container.  You can use it to store key/value pairs so that you don't have to remember things.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.19.2" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.19.2" />
+  </ItemGroup>
+
+</Project>
