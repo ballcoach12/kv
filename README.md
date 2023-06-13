@@ -1,4 +1,4 @@
-﻿# kv.net
+# kv.net
 
 `kv` is a commandline tool that allows you to conveniently store key/value pairs so that you don't have to remember things. 
 
@@ -11,6 +11,7 @@ Follow these steps to install on Windows:
 3. Open a Powershell command prompt and switch to the directory where the `.csproj` file is.
 4. Run the following command: `dotnet build`.
 5. Add the location of the compiled `kv.exe` file to your `PATH` environment variable.
+6. Get the latest `MongoDb` image: `docker run --name mongodb -d -p 27017:27017 mongo:latest`
 6. Open a new command prompt and type `kv` (`./kv` if it's Powershell').  You should see the Usage screen.
 
 ## Usage
