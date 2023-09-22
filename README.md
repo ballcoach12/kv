@@ -6,13 +6,13 @@
 
 Follow these steps to install on Windows:
 
-1. Install the .NET CLI (see https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net70)
+1. Install the .NET CLR (see https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net70)
 2. Clone this repo
 3. Open a Powershell command prompt and switch to the directory where the `.csproj` file is.
 4. Run the following command: `dotnet build`.
 5. Add the location of the compiled `kv.exe` file to your `PATH` environment variable.
 6. Get the latest `MongoDb` image: `docker run --name mongodb -d -p 27017:27017 mongo:latest`
-6. Open a new command prompt and type `kv` (`./kv` if it's Powershell').  You should see the Usage screen.
+6. Open a new command prompt and type `kv`.  You should see the Usage screen.
 
 ## Usage
 
